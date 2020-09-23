@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.449">
+    <testcase classname="Validar informacao em modal de consulta" name="Validar texto de modal de consulta" time="22.239">
+        <system-out><![CDATA[Given acesse a pagina site.getnet.com.br....................................passed
+And clico na lupa para iniciar pesquisa.....................................passed
+And no campo de pesquisa informo SuperGet...................................passed
+And clico em Pesquisar......................................................passed
+And clico na linha com valor - Como acesso a minha conta SuperGet?..........passed
+Then valido se modal foi aberto.............................................passed
+And verifico se nele ha o texto - Como acesso a minha conta SuperGet?.......passed
+Then encerro a aplicacao....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-23T12:35:26.293Z",
+        "line": 4,
+        "name": "Validar texto de modal de consulta",
+        "description": "",
+        "id": "validar-informacao-em-modal-de-consulta;validar-texto-de-modal-de-consulta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8948674000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "acesse a pagina site.getnet.com.br",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.acesse_a_pagina_site_getnet_com_br()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1561355500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico na lupa para iniciar pesquisa",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.clico_na_lupa_para_iniciar_pesquisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3105864100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "no campo de pesquisa informo SuperGet",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.no_campo_de_pesquisa_informo_super_get()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3614054000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Pesquisar",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.clico_em_pesquisar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3660857900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico na linha com valor - Como acesso a minha conta SuperGet?",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.clico_na_linha_com_valor_como_acesso_a_minha_conta_super_get()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325005600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "valido se modal foi aberto",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.valido_se_modal_foi_aberto()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160064900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verifico se nele ha o texto - Como acesso a minha conta SuperGet?",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.verifico_se_nele_ha_o_texto_como_acesso_a_minha_conta_super_get()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 790328600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "encerro a aplicacao",
+            "match": {
+              "location": "steps.ValidacaoTextoModalSteps.encerro_a_aplicacao()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validar informacao em modal de consulta",
+    "description": "  Eu como usuario da aplicação desejo detalhes de consulta em caixa de dialogo",
+    "id": "validar-informacao-em-modal-de-consulta",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/valida_modal.feature",
+    "tags": []
+  }
+]
